@@ -1,13 +1,17 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 150%;
+    font-size: 170%;
     color: white;
 
     /* BACKGROUND */
-    background-image: linear-gradient(to top, #65fde4, #facd3a);
+    background-image: url(black-370118_960_720.png);
     background-repeat: repeat;
-    background-size: 50000em;
+    background-size: 100%;
+
+    /* FONT */
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .webContainer {
@@ -22,24 +26,22 @@ body {
 
 h1, h2{
     margin: 4%;
-    color: #FFD700;
+    color: gold;
     font-size: 150%;
-    font-family: 'Times New Roman', Times, serif;
 }
 h1 {
     font-size: 210%;
 }
 h2 {
     font-size: 170%;
-    color: aquamarine;
+    color: rgb(255, 183, 0);
 }
 a {
-    font-family: 'Times New Roman', Times, serif;
     color: #FFD700;
     font-size: 120%;
+    text-decoration: none;
 }
 .volverBtn {
-    font-family: 'Times New Roman', Times, serif;
     color: #FFD700;
     font-size: 120%;
 
@@ -53,5 +55,5 @@ a:hover {
 }
 label {
     font-weight: bold;
-    color: yellowgreen;
+    color: goldenrod;
 }
