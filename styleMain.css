@@ -27,13 +27,12 @@ body {
 h1, h2{
     margin: 4%;
     color: gold;
-    font-size: 150%;
 }
 h1 {
     font-size: 210%;
 }
 h2 {
-    font-size: 170%;
+    font-size: 140%;
     color: rgb(255, 183, 0);
 }
 a {
@@ -56,4 +55,16 @@ a:hover {
 label {
     font-weight: bold;
     color: goldenrod;
+}
+
+.pNiveles {
+    font-weight: bold;
+    font-size: 69%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.rolesStaffsubdiv {
+    margin-left: 20%;
+    margin-right: 20%;
 }
